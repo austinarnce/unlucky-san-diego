@@ -1,0 +1,28 @@
+backend:
+  name: github
+  repo: YOUR_GITHUB_USERNAME/unlucky-site
+  branch: main
+media_folder: "images"
+public_folder: "/images"
+collections:
+  - name: "store"
+    label: "Store Editor"
+    files:
+      - name: "content"
+        label: "Homepage & Products"
+        file: "content.json"
+        format: "json"
+        fields:
+          - {label: "Homepage tagline", name: "tagline", widget: "text"}
+          - {label: "About brand", name: "about", widget: "text"}
+          - label: "Products"
+            name: "products"
+            widget: "list"
+            summary: "{{fields.name}} — ${{fields.price}}"
+            fields:
+              - {label: "ID (unique, letters and dashes)", name: "id", widget: "string"}
+              - {label: "Product name", name: "name", widget: "string"}
+              - {label: "Price (USD)", name: "price", widget: "number", value_type: "float", min: 0}
+              - {label: "Photo", name: "image", widget: "image", required: false, default: ""}
+              - {label: "Sizes", name: "sizes", widget: "list", field: {label: "Size", name: "size", widget: "string"}}
+              - {label: "Show on website", name: "active", widget: "boolean", default: true}
