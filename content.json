@@ -54,6 +54,7 @@
       "category": "shirts"
     },
     {
+      "back_image": "/images/fc14da66-f485-4b68-b0e7-a11d51ed7760.png",
       "active": true,
       "price": 48,
       "is_new": true,
@@ -66,7 +67,7 @@
         "XL"
       ],
       "id": "derby",
-      "image": "",
+      "image": "/images/f9e25de8-06a5-462a-9c80-af0deb8c4be6.png",
       "category": "shirts"
     },
     {
