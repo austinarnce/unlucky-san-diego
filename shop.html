@@ -1,1 +1,153 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SHOP — UNLUCKY San Diego</title><link rel="stylesheet" href="/store.css"></head><body data-page="shop"><div class="strip" id="announcement">INDEPENDENT STREETWEAR • SAN DIEGO, CALIFORNIA</div><header class="site-header"><a class="brand" id="brand" href="/">UNLUCKY<span class="reg">®</span></a><nav><a href="/shop.html" id="shop-nav">SHOP</a><a href="/#story" id="about-nav">ABOUT</a><button id="bag">BAG (<span id="count">0</span>)</button></nav></header><main><section class="shop-top"><p class="shop-subtitle">UNLUCKY SAN DIEGO — ALL COLLECTIONS</p><h1 class="section-title">THE SHOP ↘</h1><div class="filters" role="group" aria-label="Product categories"><button class="filter active" data-filter="all" aria-pressed="true">ALL</button><button class="filter" data-filter="new" aria-pressed="false">NEW</button><button class="filter" data-filter="outerwear" aria-pressed="false">OUTERWEAR</button><button class="filter" data-filter="pants" aria-pressed="false">PANTS</button><button class="filter" data-filter="shirts" aria-pressed="false">SHIRTS</button></div></section><section class="main" style="padding-top:0"><div class="grid" id="products"></div><p class="empty" id="empty" hidden>No products in this category yet.</p></section></main><footer><div><b id="footer-brand">UNLUCKY SAN DIEGO</b><p id="footer-description">Independent clothing. Southern California.</p></div><div><a id="instagram" href="https://instagram.com/unlucky.sd" target="_blank" rel="noopener">INSTAGRAM ↗</a><p id="email">unluckysandiego@gmail.com</p></div></footer><aside class="drawer" id="drawer" aria-label="Shopping bag"><div class="drawer-head"><h2>YOUR BAG</h2><button id="close" aria-label="Close bag">✕</button></div><div id="lines"></div><h3 id="total"></h3><button class="checkout" id="checkout">CHECKOUT ↗</button><p class="notice">Checkout is not connected yet. Do not accept orders until a secure server-side payment integration is configured.</p></aside><script src="/store.js" defer></script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>SHOP — UNLUCKY San Diego</title>
+  <link rel="stylesheet" href="/store.css">
+</head>
+
+<body data-page="shop">
+
+  <div class="strip" id="announcement">
+    INDEPENDENT STREETWEAR • SAN DIEGO, CALIFORNIA
+  </div>
+
+  <header class="site-header">
+    <a class="brand" id="brand" href="/">
+      UNLUCKY<span class="reg">®</span>
+    </a>
+
+    <nav>
+      <a href="/shop.html" id="shop-nav">SHOP</a>
+      <a href="/#story" id="about-nav">ABOUT</a>
+      <button id="bag">BAG (<span id="count">0</span>)</button>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="shop-top">
+
+      <p class="shop-subtitle">
+        UNLUCKY SAN DIEGO — ALL COLLECTIONS
+      </p>
+
+      <h1 class="section-title">THE SHOP ↘</h1>
+
+      <div class="filters" role="group" aria-label="Product categories">
+
+        <button
+          class="filter active"
+          data-filter="all"
+          aria-pressed="true"
+        >
+          ALL
+        </button>
+
+        <button
+          class="filter"
+          data-filter="new"
+          aria-pressed="false"
+        >
+          NEW
+        </button>
+
+        <button
+          class="filter"
+          data-filter="outerwear"
+          aria-pressed="false"
+        >
+          OUTERWEAR
+        </button>
+
+        <button
+          class="filter"
+          data-filter="pants"
+          aria-pressed="false"
+        >
+          PANTS
+        </button>
+
+        <button
+          class="filter"
+          data-filter="shirts"
+          aria-pressed="false"
+        >
+          SHIRTS
+        </button>
+
+      </div>
+
+    </section>
+
+    <section class="main" style="padding-top:0">
+
+      <div class="grid" id="products"></div>
+
+      <p class="empty" id="empty" hidden>
+        No products in this category yet.
+      </p>
+
+    </section>
+
+  </main>
+
+  <footer>
+
+    <div>
+      <b id="footer-brand">UNLUCKY SAN DIEGO</b>
+
+      <p id="footer-description">
+        Independent clothing. Southern California.
+      </p>
+    </div>
+
+    <div>
+      <a
+        id="instagram"
+        href="https://instagram.com/unlucky.sd"
+        target="_blank"
+        rel="noopener"
+      >
+        INSTAGRAM ↗
+      </a>
+
+      <p id="email">unluckysandiego@gmail.com</p>
+    </div>
+
+  </footer>
+
+  <aside class="drawer" id="drawer" aria-label="Shopping bag">
+
+    <div class="drawer-head">
+      <h2>YOUR BAG</h2>
+
+      <button id="close" aria-label="Close bag">
+        ✕
+      </button>
+    </div>
+
+    <div id="lines"></div>
+
+    <h3 id="total"></h3>
+
+    <button class="checkout" id="checkout">
+      CHECKOUT ↗
+    </button>
+
+    <p class="notice">
+      Checkout is not connected yet. Do not accept orders until a
+      secure server-side payment integration is configured.
+    </p>
+
+  </aside>
+
+  <!-- Original website functionality -->
+  <script src="/store.js" defer></script>
+
+  <!-- NEW: Stripe checkout integration -->
+  <script src="/checkout-client.js" defer></script>
+
+</body>
+</html>
