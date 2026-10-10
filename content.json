@@ -64,7 +64,8 @@
         "S",
         "M",
         "L",
-        "XL"
+        "XL",
+        "2XL"
       ],
       "id": "derby",
       "image": "/images/f9e25de8-06a5-462a-9c80-af0deb8c4be6.png",
@@ -80,10 +81,11 @@
         "S",
         "M",
         "L",
-        "XL"
+        "XL",
+        "2XL"
       ],
       "id": "blueprint",
-      "image": "",
+      "image": "/images/3186fd26-fdd8-4dfb-9687-ad62cce51441.png",
       "category": "shirts"
     },
     {
