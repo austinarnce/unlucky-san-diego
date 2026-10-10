@@ -159,7 +159,7 @@
       "category": "outerwear"
     },
     {
-      "back_image": "/images/e6cffe6b-79e2-49c2-86b1-58324cb3ee2c.png",
+      "back_image": "",
       "active": true,
       "price": 30,
       "is_new": false,
@@ -173,11 +173,11 @@
         "2XL"
       ],
       "id": "split",
-      "image": "",
+      "image": "/images/e6cffe6b-79e2-49c2-86b1-58324cb3ee2c.png",
       "category": "shirts"
     },
     {
-      "back_image": "/images/c5d7c25a-f850-4cf5-82aa-d452a2ac84a2.png",
+      "back_image": "",
       "active": true,
       "price": 30,
       "is_new": false,
@@ -191,7 +191,7 @@
         "2XL"
       ],
       "id": "odds",
-      "image": "",
+      "image": "/images/c5d7c25a-f850-4cf5-82aa-d452a2ac84a2.png",
       "category": "shirts"
     },
     {
