@@ -185,29 +185,15 @@
         "S",
         "M",
         "L",
-        "XL"
+        "XL",
+        "2XL"
       ],
       "id": "split",
       "image": "",
       "category": "shirts"
     },
     {
-      "active": true,
-      "price": 30,
-      "is_new": false,
-      "name": "Chrome Cowgirl Tee",
-      "featured": false,
-      "sizes": [
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
-      "id": "cowgirl",
-      "image": "",
-      "category": "shirts"
-    },
-    {
+      "back_image": "/images/c5d7c25a-f850-4cf5-82aa-d452a2ac84a2.png",
       "active": true,
       "price": 30,
       "is_new": false,
@@ -217,7 +203,8 @@
         "S",
         "M",
         "L",
-        "XL"
+        "XL",
+        "2XL"
       ],
       "id": "odds",
       "image": "",
