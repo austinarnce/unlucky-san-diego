@@ -89,20 +89,21 @@
       "category": "shirts"
     },
     {
+      "back_image": "/images/9aaefd2b-a77b-4703-ad54-ae3eb3b6d1f6.png",
       "active": true,
       "price": 45,
       "is_new": true,
       "name": "Winged Heavyweight Straight Leg Denim Jeans",
       "featured": true,
       "sizes": [
-        "28",
-        "30",
-        "32",
-        "34",
-        "36"
+        "S - 29.1 inches\t41.5 inches",
+        "M - 30.7 inches\t42.1 inches",
+        "L - 32.3 inches\t       42.7 inches",
+        "XL - 33.9 inches\t43.3 inches",
+        "2XL - 35.4 inches\t43.9 inches"
       ],
       "id": "winged-denim",
-      "image": "",
+      "image": "/images/c410be3e-7e6b-44d0-8fa7-36822fe20d36.png",
       "category": "pants"
     },
     {
