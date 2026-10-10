@@ -609,11 +609,11 @@
       "category": "outerwear"
     },
     {
-      "back_image": "/images/2949aff7-59c2-4991-a447-7dabfa37d304.png",
+      "back_image": "",
       "active": true,
-      "price": 35,
+      "price": 29.99,
       "is_new": false,
-      "name": "U Star Tee",
+      "name": "Orange Star Tee",
       "featured": false,
       "sizes": [
         "S",
@@ -622,128 +622,81 @@
         "XL",
         "2XL"
       ],
-      "id": "U Star Tee",
-      "image": "/images/28aa0891-bbf8-4b7d-b925-18a8ce9d151d.png",
+      "id": "Orange Star Tee",
+      "image": "/images/c4b08cae-9ae4-480f-9821-42c4c937b6de.png",
       "category": "shirts"
     },
     {
-      "image": "",
-      "back_image": "",
+      "back_image": "/images/8e6ce293-114c-4c67-b58d-4f3af47ee248.png",
+      "active": true,
+      "price": 35,
       "is_new": false,
+      "name": "Flame Diego Tee",
       "featured": false,
-      "active": true
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "id": "Flame Diego Tee",
+      "image": "/images/904c99e0-8511-46c6-9adb-5b310395e1bd.png",
+      "category": "shirts"
     },
     {
-      "image": "",
       "back_image": "",
+      "active": true,
+      "price": 35,
       "is_new": false,
+      "name": "Devils Break Boxy Cut Off",
       "featured": false,
-      "active": true
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "id": "Devils Break Boxy Cut Off",
+      "image": "/images/a50811bc-6feb-45b7-abe5-0142232049d2.png",
+      "category": "shirts"
     },
     {
-      "image": "",
       "back_image": "",
+      "active": true,
+      "price": 29.99,
       "is_new": false,
+      "name": "Chain Tee",
       "featured": false,
-      "active": true
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "id": "Chain Tee",
+      "image": "/images/ad9c62ea-4f9a-4ca4-be41-8d42361dadc4.png",
+      "category": "shirts"
     },
     {
-      "image": "",
       "back_image": "",
+      "active": true,
+      "price": 45,
       "is_new": false,
+      "name": "Unlucky Boxy Football Jersey",
       "featured": false,
-      "active": true
-    },
-    {
-      "image": "",
-      "back_image": "",
-      "is_new": false,
-      "featured": false,
-      "active": true
-    },
-    {
-      "image": "",
-      "back_image": "",
-      "is_new": false,
-      "featured": false,
-      "active": true
-    },
-    {
-      "image": "",
-      "back_image": "",
-      "is_new": false,
-      "featured": false,
-      "active": true
-    },
-    {
-      "image": "",
-      "back_image": "",
-      "is_new": false,
-      "featured": false,
-      "active": true
-    },
-    {
-      "image": "",
-      "back_image": "",
-      "is_new": false,
-      "featured": false,
-      "active": true
-    },
-    {
-      "image": "",
-      "back_image": "",
-      "is_new": false,
-      "featured": false,
-      "active": true
-    },
-    {
-      "image": "",
-      "back_image": "",
-      "is_new": false,
-      "featured": false,
-      "active": true
-    },
-    {
-      "image": "",
-      "back_image": "",
-      "is_new": false,
-      "featured": false,
-      "active": true
-    },
-    {
-      "image": "",
-      "back_image": "",
-      "is_new": false,
-      "featured": false,
-      "active": true
-    },
-    {
-      "image": "",
-      "back_image": "",
-      "is_new": false,
-      "featured": false,
-      "active": true
-    },
-    {
-      "image": "",
-      "back_image": "",
-      "is_new": false,
-      "featured": false,
-      "active": true
-    },
-    {
-      "image": "",
-      "back_image": "",
-      "is_new": false,
-      "featured": false,
-      "active": true
-    },
-    {
-      "image": "",
-      "back_image": "",
-      "is_new": false,
-      "featured": false,
-      "active": true
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "id": "Unlucky Boxy Football Jersey",
+      "image": "/images/7ff472df-f14e-4d22-97fd-815a4f109d09.png",
+      "category": "shirts"
     }
   ]
 }
