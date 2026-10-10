@@ -1,18 +1,163 @@
 {
-  "tagline": "Bad luck. Good clothes. Independent streetwear from San Diego, California.",
+  "tagline": "Bad luck. Good clothes. Independent streetwear from San Diego, California. Est. 2019",
   "about": "UNLUCKY is an independent San Diego clothing brand. Vintage energy, new drops, and clothes made to stand out. Follow @unlucky.sd for what's next.",
   "products": [
-    {"id":"tree-camo","name":"Tree Camo Waffle T-Shirt","price":35,"image":"","sizes":["S","M","L","XL"],"active":true},
-    {"id":"derby","name":"Derby Jersey","price":48,"image":"","sizes":["S","M","L","XL"],"active":true},
-    {"id":"blueprint","name":"Blueprint Tee","price":30,"image":"","sizes":["S","M","L","XL"],"active":true},
-    {"id":"winged-denim","name":"Winged Heavyweight Straight Leg Denim Jeans","price":45,"image":"","sizes":["28","30","32","34","36"],"active":true},
-    {"id":"sd-vice","name":"SD Vice Tee","price":35,"image":"","sizes":["S","M","L","XL"],"active":true},
-    {"id":"crest","name":"Unlucky Crest Tee","price":35,"image":"","sizes":["S","M","L","XL"],"active":true},
-    {"id":"circuit","name":"Circuit 19 Tee","price":30,"image":"","sizes":["S","M","L","XL"],"active":true},
-    {"id":"denim-jacket","name":"Unlucky Faded Denim Jacket","price":55,"image":"","sizes":["S","M","L","XL"],"active":true},
-    {"id":"comet","name":"Unlucky Comet Hoodie","price":40,"image":"","sizes":["S","M","L","XL"],"active":true},
-    {"id":"split","name":"Split Decision Tee","price":30,"image":"","sizes":["S","M","L","XL"],"active":true},
-    {"id":"cowgirl","name":"Chrome Cowgirl Tee","price":30,"image":"","sizes":["S","M","L","XL"],"active":true},
-    {"id":"odds","name":"Infinite Odds Tee","price":30,"image":"","sizes":["S","M","L","XL"],"active":true}
+    {
+      "id": "tree-camo",
+      "name": "Tree Camo Waffle T-Shirt",
+      "price": 35,
+      "image": "",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "active": true
+    },
+    {
+      "id": "derby",
+      "name": "Derby Jersey",
+      "price": 48,
+      "image": "",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "active": true
+    },
+    {
+      "id": "blueprint",
+      "name": "Blueprint Tee",
+      "price": 30,
+      "image": "",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "active": true
+    },
+    {
+      "id": "winged-denim",
+      "name": "Winged Heavyweight Straight Leg Denim Jeans",
+      "price": 45,
+      "image": "",
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "active": true
+    },
+    {
+      "id": "sd-vice",
+      "name": "SD Vice Tee",
+      "price": 35,
+      "image": "",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "active": true
+    },
+    {
+      "id": "crest",
+      "name": "Unlucky Crest Tee",
+      "price": 35,
+      "image": "",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "active": true
+    },
+    {
+      "id": "circuit",
+      "name": "Circuit 19 Tee",
+      "price": 30,
+      "image": "",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "active": true
+    },
+    {
+      "id": "denim-jacket",
+      "name": "Unlucky Faded Denim Jacket",
+      "price": 55,
+      "image": "",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "active": true
+    },
+    {
+      "id": "comet",
+      "name": "Unlucky Comet Hoodie",
+      "price": 40,
+      "image": "",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "active": true
+    },
+    {
+      "id": "split",
+      "name": "Split Decision Tee",
+      "price": 30,
+      "image": "",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "active": true
+    },
+    {
+      "id": "cowgirl",
+      "name": "Chrome Cowgirl Tee",
+      "price": 30,
+      "image": "",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "active": true
+    },
+    {
+      "id": "odds",
+      "name": "Infinite Odds Tee",
+      "price": 30,
+      "image": "",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "active": true
+    }
   ]
 }
