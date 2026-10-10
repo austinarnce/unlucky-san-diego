@@ -26,3 +26,4 @@ Integrate Stripe Checkout using Cloudflare Pages Functions and Stripe's secret k
 
 ## Domain
 You can connect an existing domain to Cloudflare Pages, but purchasing/renewing the domain isn't free. The current `wixsite.com` subdomain cannot be transferred as your custom domain.
+<!-- Stripe checkout deployment refresh -->
