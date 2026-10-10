@@ -13,7 +13,7 @@
       "product_size": 16
     },
     "announcement": "INDEPENDENT STREETWEAR • SAN DIEGO, CALIFORNIA",
-    "featured_button_text": "SHOP ALL ↗",
+    "featured_button_text": "SHOP ALL",
     "hero_overlay": 0.18,
     "logo": "",
     "colors": {
@@ -24,11 +24,11 @@
     },
     "about_nav": "ABOUT",
     "hero_title": "UNLUCKY.",
-    "hero_button_text": "SHOP THE DROP ↗",
+    "hero_button_text": "SHOP THE DROP",
     "hero_image": "/images/san-diego-coastal-collage-at-sunset.png",
     "story_heading": "MADE FOR\nTHE UNLUCKY.",
-    "footer_description": "Born in San Diego",
-    "shop_heading": "FEATURED PIECES ↘",
+    "footer_description": "BORN IN THE 619",
+    "shop_heading": "FEATURED PIECES",
     "shop_nav": "SHOP",
     "page_background_image": "",
     "email": "unluckysandiego@gmail.com",
