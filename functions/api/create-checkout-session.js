@@ -43,7 +43,6 @@ export async function onRequestPost({ request, env }) {
     params.set('shipping_options[0][shipping_rate_data][display_name]', 'Free US shipping');
     params.set('phone_number_collection[enabled]', 'false');
     params.set('customer_creation', 'always');
-    params.set('payment_method_types[0]', 'card');
     params.set('metadata[store]', 'UNLUCKY San Diego');
     params.set('automatic_tax[enabled]', env.STRIPE_AUTOMATIC_TAX === 'true' ? 'true' : 'false');
     let i = 0;
