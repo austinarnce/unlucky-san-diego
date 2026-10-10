@@ -1,4 +1,29 @@
 {
+  "site": {
+    "announcement": "INDEPENDENT STREETWEAR • SAN DIEGO, CALIFORNIA",
+    "logo": "",
+    "shop_nav": "SHOP",
+    "about_nav": "ABOUT",
+    "hero_image": "",
+    "hero_overlay": 0.18,
+    "hero_eyebrow": "EST. SAN DIEGO • CALIFORNIA",
+    "hero_title": "UNLUCKY.",
+    "hero_button_text": "SHOP THE DROP ↗",
+    "hero_button_link": "#shop",
+    "shop_heading": "THE LATEST DROP ↘",
+    "story_heading": "MADE FOR\nTHE UNLUCKY.",
+    "page_background_image": "",
+    "colors": {
+      "background": "#eee8d9",
+      "text": "#24231e",
+      "accent": "#a33c31",
+      "hero_text": "#eee8d9"
+    },
+    "footer_brand": "UNLUCKY SAN DIEGO",
+    "footer_description": "Independent clothing. Southern California.",
+    "instagram_url": "https://instagram.com/unlucky.sd",
+    "email": "unluckysandiego@gmail.com"
+  },
   "tagline": "Bad luck. Good clothes. Independent streetwear from San Diego, California. Est. 2019",
   "about": "UNLUCKY is an independent San Diego clothing brand. Vintage energy, new drops, and clothes made to stand out. Follow @unlucky.sd for what's next.",
   "products": [
