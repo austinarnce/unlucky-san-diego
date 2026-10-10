@@ -123,6 +123,7 @@
       "category": "shirts"
     },
     {
+      "back_image": "/images/5af74bf7-2b80-4818-9a86-78c4e3804470.png",
       "active": true,
       "price": 35,
       "is_new": false,
@@ -132,26 +133,11 @@
         "S",
         "M",
         "L",
-        "XL"
+        "XL",
+        "2XL"
       ],
       "id": "crest",
-      "image": "",
-      "category": "shirts"
-    },
-    {
-      "active": true,
-      "price": 30,
-      "is_new": false,
-      "name": "Circuit 19 Tee",
-      "featured": false,
-      "sizes": [
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
-      "id": "circuit",
-      "image": "",
+      "image": "/images/e9dcb455-77ac-44c0-bf54-750aac0cd008.png",
       "category": "shirts"
     },
     {
@@ -164,10 +150,11 @@
         "S",
         "M",
         "L",
-        "XL"
+        "XL",
+        "2XL"
       ],
       "id": "denim-jacket",
-      "image": "",
+      "image": "/images/71e0523c-45cc-444b-8ce9-81d3d03c8847.png",
       "category": "outerwear"
     },
     {
@@ -180,13 +167,15 @@
         "S",
         "M",
         "L",
-        "XL"
+        "XL",
+        "2XL"
       ],
       "id": "comet",
-      "image": "",
+      "image": "/images/e8ca739d-db3d-4853-8118-7883d818a010.png",
       "category": "outerwear"
     },
     {
+      "back_image": "/images/e6cffe6b-79e2-49c2-86b1-58324cb3ee2c.png",
       "active": true,
       "price": 30,
       "is_new": false,
