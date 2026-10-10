@@ -20,6 +20,35 @@ collections:
         file: content.json
         format: json
         fields:
+          - label: Website design and images
+            name: site
+            widget: object
+            fields:
+              - {label: Announcement bar, name: announcement, widget: string}
+              - {label: Logo image (leave empty for UNLUCKY text), name: logo, widget: image, required: false, default: ''}
+              - {label: Shop navigation label, name: shop_nav, widget: string}
+              - {label: About navigation label, name: about_nav, widget: string}
+              - {label: Homepage banner image, name: hero_image, widget: image, required: false, default: ''}
+              - {label: Banner darkness (0 to 0.85), name: hero_overlay, widget: number, value_type: float, min: 0, max: 0.85, step: 0.05}
+              - {label: Small banner heading, name: hero_eyebrow, widget: string}
+              - {label: Big banner heading, name: hero_title, widget: string}
+              - {label: Banner button text, name: hero_button_text, widget: string}
+              - {label: Banner button link, name: hero_button_link, widget: string, hint: 'Use #shop or a full https:// link'}
+              - {label: Product section heading, name: shop_heading, widget: string}
+              - {label: About section heading, name: story_heading, widget: string}
+              - {label: Optional full-page background image, name: page_background_image, widget: image, required: false, default: ''}
+              - label: Colors
+                name: colors
+                widget: object
+                fields:
+                  - {label: Page background color, name: background, widget: color, allowInput: true}
+                  - {label: Text and button color, name: text, widget: color, allowInput: true}
+                  - {label: Accent color, name: accent, widget: color, allowInput: true}
+                  - {label: Banner text color, name: hero_text, widget: color, allowInput: true}
+              - {label: Footer brand name, name: footer_brand, widget: string}
+              - {label: Footer description, name: footer_description, widget: string}
+              - {label: Instagram URL, name: instagram_url, widget: string}
+              - {label: Contact email, name: email, widget: string}
           - {label: Homepage tagline, name: tagline, widget: text}
           - {label: About the brand, name: about, widget: text}
           - label: Products
