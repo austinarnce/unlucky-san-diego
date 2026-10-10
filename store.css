@@ -51,3 +51,15 @@
   min-height: 44px;
   overflow-wrap: anywhere;
 }
+/* Transparent product image backgrounds */
+.product .photo {
+  background: transparent !important;
+}
+
+.product .photo img {
+  background: transparent !important;
+}
+
+.quick-view-image {
+  background: transparent !important;
+}
