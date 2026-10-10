@@ -77,7 +77,8 @@ collections:
               - {label: Product ID (keep existing IDs unchanged), name: id, widget: string}
               - {label: Product name, name: name, widget: string}
               - {label: Price in USD, name: price, widget: number, value_type: float, min: 0, step: 0.01}
-              - {label: Product photo, name: image, widget: image, required: false, default: ''}
+              - {label: Front product photo, name: image, widget: image, required: false, default: ''}
+              - {label: Back product photo (optional), name: back_image, widget: image, required: false, default: ''}
               - {label: Category, name: category, widget: select, options: [{label: Shirts, value: shirts}, {label: Outerwear, value: outerwear}, {label: Pants, value: pants}]}
               - {label: Show under NEW, name: is_new, widget: boolean, default: false}
               - {label: Feature on homepage, name: featured, widget: boolean, default: false}
