@@ -33,8 +33,10 @@ collections:
               - {label: Small banner heading, name: hero_eyebrow, widget: string}
               - {label: Big banner heading, name: hero_title, widget: string}
               - {label: Banner button text, name: hero_button_text, widget: string}
-              - {label: Banner button link, name: hero_button_link, widget: string, hint: 'Use #shop or a full https:// link'}
-              - {label: Product section heading, name: shop_heading, widget: string}
+              - {label: Banner button link, name: hero_button_link, widget: string, hint: 'Use /shop.html for the shop page'}
+              - {label: Featured section heading, name: shop_heading, widget: string}
+              - {label: Shop all button text, name: featured_button_text, widget: string}
+              - {label: Number of homepage featured products, name: featured_count, widget: number, value_type: int, min: 1, max: 12, default: 4}
               - {label: About section heading, name: story_heading, widget: string}
               - {label: Optional full-page background image, name: page_background_image, widget: image, required: false, default: ''}
               - label: Colors
@@ -45,6 +47,22 @@ collections:
                   - {label: Text and button color, name: text, widget: color, allowInput: true}
                   - {label: Accent color, name: accent, widget: color, allowInput: true}
                   - {label: Banner text color, name: hero_text, widget: color, allowInput: true}
+              - label: Fonts and text sizes
+                name: fonts
+                widget: object
+                fields:
+                  - label: Body font
+                    name: body
+                    widget: select
+                    options: ['Arial, Helvetica, sans-serif', 'Georgia, serif', 'Times New Roman, serif', 'Verdana, sans-serif', 'Trebuchet MS, sans-serif', 'Courier New, monospace', 'Impact, sans-serif']
+                  - label: Heading font
+                    name: heading
+                    widget: select
+                    options: ['Arial, Helvetica, sans-serif', 'Georgia, serif', 'Times New Roman, serif', 'Verdana, sans-serif', 'Trebuchet MS, sans-serif', 'Courier New, monospace', 'Impact, sans-serif']
+                  - {label: Body text size (px), name: body_size, widget: number, value_type: int, min: 12, max: 24}
+                  - {label: Banner title size (px), name: hero_size, widget: number, value_type: int, min: 50, max: 240}
+                  - {label: Section title size (px), name: section_size, widget: number, value_type: int, min: 28, max: 100}
+                  - {label: Product name size (px), name: product_size, widget: number, value_type: int, min: 12, max: 28}
               - {label: Footer brand name, name: footer_brand, widget: string}
               - {label: Footer description, name: footer_description, widget: string}
               - {label: Instagram URL, name: instagram_url, widget: string}
@@ -56,9 +74,12 @@ collections:
             widget: list
             summary: '{{fields.name}}'
             fields:
-              - {label: Product ID (keep existing IDs unchanged), name: id, widget: string, hint: 'Use lowercase letters and dashes. Changing an existing ID may affect saved carts.'}
+              - {label: Product ID (keep existing IDs unchanged), name: id, widget: string}
               - {label: Product name, name: name, widget: string}
               - {label: Price in USD, name: price, widget: number, value_type: float, min: 0, step: 0.01}
               - {label: Product photo, name: image, widget: image, required: false, default: ''}
+              - {label: Category, name: category, widget: select, options: [{label: Shirts, value: shirts}, {label: Outerwear, value: outerwear}, {label: Pants, value: pants}]}
+              - {label: Show under NEW, name: is_new, widget: boolean, default: false}
+              - {label: Feature on homepage, name: featured, widget: boolean, default: false}
               - {label: Available sizes, name: sizes, widget: list, field: {label: Size, name: size, widget: string}}
               - {label: Show on website, name: active, widget: boolean, default: true}
