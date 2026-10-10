@@ -411,11 +411,22 @@
       "category": "shirts"
     },
     {
-      "image": "",
       "back_image": "",
+      "active": true,
+      "price": 35,
       "is_new": false,
+      "name": "Retro Bowling Tee",
       "featured": false,
-      "active": true
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "id": "Retro Bowling Tee",
+      "image": "/images/5c54bcb6-c683-49e5-a020-8d3d1e12b5ce.png",
+      "category": "shirts"
     },
     {
       "image": "",
