@@ -429,60 +429,148 @@
       "category": "shirts"
     },
     {
-      "image": "",
       "back_image": "",
+      "active": true,
+      "price": 30,
       "is_new": false,
+      "name": "Unlucky Face Tee",
       "featured": false,
-      "active": true
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "id": "Unlucky Face Tee",
+      "image": "/images/545519ec-b585-4014-9b3c-94cd62d697b5.png",
+      "category": "shirts"
     },
     {
-      "image": "",
       "back_image": "",
+      "active": true,
+      "price": 30,
       "is_new": false,
+      "name": "With Open Hands Tee",
       "featured": false,
-      "active": true
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "id": "With Open Hands Tee",
+      "image": "/images/66d5b75d-515c-4fe2-8a22-88db0b34503a.png",
+      "category": "shirts"
     },
     {
-      "image": "",
       "back_image": "",
+      "active": true,
+      "price": 30,
       "is_new": false,
+      "name": "Vintage Basketball Tee",
       "featured": false,
-      "active": true
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "id": "Vintage Basketball Tee",
+      "image": "/images/1cd6b9d5-54d0-4eeb-a67d-d3fe48c6a93c.png",
+      "category": "shirts"
     },
     {
-      "image": "",
-      "back_image": "",
+      "back_image": "/images/2bd565e2-c0b7-4412-ac99-0e9e6cfcb9c7.png",
+      "active": true,
+      "price": 35,
       "is_new": false,
+      "name": "Fiery Fate Tee",
       "featured": false,
-      "active": true
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "id": "Fiery Fate Tee",
+      "image": "/images/a6f15aa0-4a39-45ee-b4cb-5da2be6dc9cd.png",
+      "category": "shirts"
     },
     {
-      "image": "",
-      "back_image": "",
+      "back_image": "/images/905a71b4-1f5d-4248-9104-2ecf374d764a.png",
+      "active": true,
+      "price": 35,
       "is_new": false,
+      "name": "Burlesk Tee",
       "featured": false,
-      "active": true
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "id": "Burlesk Tee",
+      "image": "/images/1e97473e-efc3-4abc-bea1-a018a4c361f9.png",
+      "category": "shirts"
     },
     {
-      "image": "",
       "back_image": "",
+      "active": true,
+      "price": 45,
       "is_new": false,
+      "name": "Symbol Sweatshirt",
       "featured": false,
-      "active": true
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "id": "Symbol Sweatshirt",
+      "image": "/images/b1b7d2a0-7871-4a44-9c77-e54a63bb3308.png",
+      "category": "outerwear"
     },
     {
-      "image": "",
       "back_image": "",
+      "active": true,
+      "price": 55,
       "is_new": false,
+      "name": "619 Hoodie",
       "featured": false,
-      "active": true
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "id": "619 Hoodie",
+      "image": "/images/e8ce62c1-e8b8-46b2-a198-95ecf0820c94.png",
+      "category": "outerwear"
     },
     {
-      "image": "",
       "back_image": "",
+      "active": true,
+      "price": 55,
       "is_new": false,
+      "name": "Unlucky Plate Hoodie",
       "featured": false,
-      "active": true
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "id": "Unlucky Plate Hoodie",
+      "image": "/images/738ec624-8c9a-46ee-8849-42412ecf56cc.png",
+      "category": "outerwear"
     }
   ]
 }
