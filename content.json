@@ -571,6 +571,179 @@
       "id": "Unlucky Plate Hoodie",
       "image": "/images/738ec624-8c9a-46ee-8849-42412ecf56cc.png",
       "category": "outerwear"
+    },
+    {
+      "back_image": "",
+      "active": true,
+      "price": 55,
+      "is_new": false,
+      "name": "Radiate Hoodie",
+      "featured": false,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "id": "Radiate Hoodie",
+      "image": "/images/b88b606c-a344-4634-bd90-f9ad043b45cc.png",
+      "category": "outerwear"
+    },
+    {
+      "back_image": "",
+      "active": true,
+      "price": 55,
+      "is_new": false,
+      "name": "SD Zip Up",
+      "featured": false,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "id": "SD Zip Up",
+      "image": "/images/a09faa9c-d900-48f6-a47f-b2a7ecd02e90.png",
+      "category": "outerwear"
+    },
+    {
+      "back_image": "/images/2949aff7-59c2-4991-a447-7dabfa37d304.png",
+      "active": true,
+      "price": 35,
+      "is_new": false,
+      "name": "U Star Tee",
+      "featured": false,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "id": "U Star Tee",
+      "image": "/images/28aa0891-bbf8-4b7d-b925-18a8ce9d151d.png",
+      "category": "shirts"
+    },
+    {
+      "image": "",
+      "back_image": "",
+      "is_new": false,
+      "featured": false,
+      "active": true
+    },
+    {
+      "image": "",
+      "back_image": "",
+      "is_new": false,
+      "featured": false,
+      "active": true
+    },
+    {
+      "image": "",
+      "back_image": "",
+      "is_new": false,
+      "featured": false,
+      "active": true
+    },
+    {
+      "image": "",
+      "back_image": "",
+      "is_new": false,
+      "featured": false,
+      "active": true
+    },
+    {
+      "image": "",
+      "back_image": "",
+      "is_new": false,
+      "featured": false,
+      "active": true
+    },
+    {
+      "image": "",
+      "back_image": "",
+      "is_new": false,
+      "featured": false,
+      "active": true
+    },
+    {
+      "image": "",
+      "back_image": "",
+      "is_new": false,
+      "featured": false,
+      "active": true
+    },
+    {
+      "image": "",
+      "back_image": "",
+      "is_new": false,
+      "featured": false,
+      "active": true
+    },
+    {
+      "image": "",
+      "back_image": "",
+      "is_new": false,
+      "featured": false,
+      "active": true
+    },
+    {
+      "image": "",
+      "back_image": "",
+      "is_new": false,
+      "featured": false,
+      "active": true
+    },
+    {
+      "image": "",
+      "back_image": "",
+      "is_new": false,
+      "featured": false,
+      "active": true
+    },
+    {
+      "image": "",
+      "back_image": "",
+      "is_new": false,
+      "featured": false,
+      "active": true
+    },
+    {
+      "image": "",
+      "back_image": "",
+      "is_new": false,
+      "featured": false,
+      "active": true
+    },
+    {
+      "image": "",
+      "back_image": "",
+      "is_new": false,
+      "featured": false,
+      "active": true
+    },
+    {
+      "image": "",
+      "back_image": "",
+      "is_new": false,
+      "featured": false,
+      "active": true
+    },
+    {
+      "image": "",
+      "back_image": "",
+      "is_new": false,
+      "featured": false,
+      "active": true
+    },
+    {
+      "image": "",
+      "back_image": "",
+      "is_new": false,
+      "featured": false,
+      "active": true
     }
   ]
 }
