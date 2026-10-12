@@ -17,9 +17,9 @@
     "hero_overlay": 0.18,
     "logo": "",
     "colors": {
-      "background": "#181818",
-      "text": "#676565",
-      "accent": "#454545",
+      "background": "#1C1C1C",
+      "text": "#383838",
+      "accent": "#B0B0B0",
       "hero_text": "#FFFFFF"
     },
     "about_nav": "ABOUT",
