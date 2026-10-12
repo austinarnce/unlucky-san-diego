@@ -17,10 +17,10 @@
     "hero_overlay": 0.18,
     "logo": "",
     "colors": {
-      "background": "#292929",
-      "text": "#F5F1E8",
-      "accent": "#858A65",
-      "hero_text": "#F5F1E8"
+      "background": "#C8C1B5",
+      "text": "#252525",
+      "accent": "#6B705C",
+      "hero_text": "#FFFFFF"
     },
     "about_nav": "ABOUT",
     "hero_title": "UNLUCKY.",
