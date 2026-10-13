@@ -640,16 +640,22 @@ footer a {
 
   .product .product-photo-button {
     aspect-ratio: 3 / 4;
+    overflow: hidden;
   }
 
   .photo {
     aspect-ratio: 3 / 4;
   }
 
-  .photo img {
+  .product .product-photo-button img {
     width: 100%;
     height: 100%;
     object-fit: contain;
+    transform: scale(1.12);
+  }
+
+  .product .product-photo-button:hover img {
+    transform: scale(1.12);
   }
 }
 
@@ -703,35 +709,5 @@ footer a {
   .sort-row select {
     min-width: 0;
     width: 65%;
-  }
-}
-/* Make clothing appear larger on mobile only */
-@media (max-width: 600px) {
-  .product .product-photo-button {
-    overflow: hidden;
-  }
-
-  .product .product-photo-button img {
-    transform: scale(1.18);
-    object-fit: contain;
-  }
-
-  .product .product-photo-button:hover img {
-    transform: scale(1.18);
-  }
-}
-/* Make clothing slightly larger on mobile only */
-@media (max-width: 600px) {
-  .product .product-photo-button {
-    overflow: hidden;
-  }
-
-  .product .product-photo-button img {
-    transform: scale(1.08);
-    object-fit: contain;
-  }
-
-  .product .product-photo-button:hover img {
-    transform: scale(1.08);
   }
 }
