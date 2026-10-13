@@ -711,3 +711,32 @@ footer a {
     width: 65%;
   }
 }
+/* UNLUCKY ABOUT SECTION TYPOGRAPHY */
+
+.story h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 60px;
+  font-weight: 900;
+  letter-spacing: -3px;
+  line-height: 1.05;
+}
+
+.story p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+/* Keep ABOUT heading readable on mobile */
+@media (max-width: 600px) {
+  .story h2 {
+    font-size: 42px;
+  }
+
+  .story p {
+    font-size: 16px;
+  }
+}
