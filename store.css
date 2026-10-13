@@ -106,9 +106,8 @@ nav a[aria-current=page] {
 
 .hero {
   min-height: 460px;
-  background:
-    radial-gradient(circle at 80% 25%, #c8ad83, transparent 45%),
-    linear-gradient(145deg, #a23d32, #392f2a);
+  background-color: #111111;
+  background-image: none;
   background-size: cover;
   background-position: center 30%;
   color: var(--hero-text);
