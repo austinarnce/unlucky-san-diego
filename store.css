@@ -705,3 +705,18 @@ footer a {
     width: 65%;
   }
 }
+/* Make clothing appear larger on mobile only */
+@media (max-width: 600px) {
+  .product .product-photo-button {
+    overflow: hidden;
+  }
+
+  .product .product-photo-button img {
+    transform: scale(1.18);
+    object-fit: contain;
+  }
+
+  .product .product-photo-button:hover img {
+    transform: scale(1.18);
+  }
+}
