@@ -28,3 +28,7 @@
 .quick-view-image-controls{display:flex;gap:10px;justify-content:center;padding:12px}
 .quick-view-image-controls button{flex:1;max-width:150px;background:transparent;color:var(--ink);border:1px solid var(--ink)}
 .quick-view-image-controls button.active{background:var(--ink);color:var(--paper)}
+/* UNLUCKY homepage banner image adjustment */
+.hero {
+  background-position: center 30%;
+}
